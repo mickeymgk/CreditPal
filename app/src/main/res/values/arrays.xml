@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="action_names">
+        <item>Recharge</item>
+        <item>Recharge For Others</item>
+        <item>Remaining Balance</item>
+        <item>Call Me Back</item>
+        <item>Send Credit</item>
+        <item>Phone Number</item>
+    </string-array>
+
+    <string-array name="action_additional_names">
+        <item>Call Forwarding</item>
+        <item>Call Waiting</item>
+        <item>Voice Mail</item>
+        <item>Missed Call Notification</item>
+        <item>Reachability Alert</item>
+    </string-array>
+
+    <string-array name="packages_names">
+        <item>Internet Packages</item>
+        <item>SMS Packages</item>
+        <item>Voice Packages</item>
+        <item>Vip Packages</item>
+    </string-array>
+
+    <integer-array name="icons_packages">
+        <item>@drawable/ic_internet</item>
+        <item>@drawable/ic_sms</item>
+        <item>@drawable/ic_voice</item>
+        <item>@drawable/ic_vip</item>
+    </integer-array>
+
+    <integer-array name="icons_account">
+        <item>@drawable/ic_recharge</item>
+        <item>@drawable/ic_send_it</item>
+        <item>@drawable/ic_check_box</item>
+        <item>@drawable/ic_cmb</item>
+        <item>@drawable/ic_send_it</item>
+        <item>@drawable/ic_ur_number</item>
+    </integer-array>
+
+    <integer-array name="icons_additional">
+        <item>@drawable/ic_call_forward</item>
+        <item>@drawable/ic_call_waiting</item>
+        <item>@drawable/ic_voicemail</item>
+        <item>@drawable/ic_cmb</item>
+        <item>@drawable/ic_alert</item>
+    </integer-array>
+
+    <!--Internet Packages-->
+<!--amounts-->
+    <string-array name="nightly_internet">
+        <item>50 MB</item>
+        <item>100 MB</item>
+        <item>160 MB</item>
+    </string-array>
+
+    <string-array name="daily_internet">
+        <item>25 MB</item>
+        <item>45 MB</item>
+        <item>100 MB</item>
+        <item>200 MB</item>
+        <item>500 MB</item>
+    </string-array>
+
+    <string-array name="weekend_internet">
+        <item>500 MB</item>
+        <item>1 GB</item>
+        <item>2 GB</item>
+    </string-array>
+
+    <string-array name="weekly_internet">
+        <item>500 MB</item>
+        <item>700 MB</item>
+        <item>1 GB</item>
+    </string-array>
+
+    <string-array name="monthly_internet">
+        <item>500 MB</item>
+        <item>1 GB</item>
+        <item>2 GB</item>
+        <item>4 GB</item>
+        <item>8 GB</item>
+        <item>10 GB</item>
+        <item>20 GB</item>
+        <item>30 GB</item>
+    </string-array>
+
+    <!--costs-->
+
+
+    <string-array name="nightly_internet_costs">
+        <item>3 Birr</item>
+        <item>5 Birr</item>
+        <item>7 Birr</item>
+    </string-array>
+
+    <string-array name="daily_internet_costs">
+        <item>3 Birr</item>
+        <item>5 Birr</item>
+        <item>10 Birr</item>
+        <item>15 Birr</item>
+        <item>35 Birr</item>
+    </string-array>
+
+    <string-array name="weekend_internet_costs">
+        <item>35 Birr</item>
+        <item>60 Birr</item>
+        <item>110 Birr</item>
+    </string-array>
+
+    <string-array name="weekly_internet_costs">
+        <item>50 Birr</item>
+        <item>60 Birr</item>
+        <item>80 Birr</item>
+    </string-array>
+
+    <string-array name="monthly_internet_costs">
+        <item>55 Birr</item>
+        <item>100 Birr</item>
+        <item>190 Birr</item>
+        <item>350 Birr</item>
+        <item>600 Birr</item>
+        <item>700 Birr</item>
+        <item>1300 Birr</item>
+        <item>1800 Birr</item>
+    </string-array>
+
+    <string-array name="daily_sms">
+        <item>18 SMS</item>
+        <item>35 SMS</item>
+        <item>70 SMS</item>
+    </string-array>
+
+    <string-array name="weekly_sms">
+        <item>140 SMS</item>
+        <item>283 SMS</item>
+    </string-array>
+
+    <string-array name="monthly_sms">
+        <item>525 SMS</item>
+        <item>1050 SMS</item>
+    </string-array>
+
+    <string-array name="daily_sms_costs">
+        <item>2 Birr</item>
+        <item>3 Birr</item>
+        <item>5 Birr</item>
+    </string-array>
+
+    <string-array name="weekly_sms_costs">
+        <item>10 Birr</item>
+        <item>15 Birr</item>
+    </string-array>
+
+    <string-array name="monthly_sms_costs">
+        <item>30 Birr</item>
+        <item>50 Birr</item>
+    </string-array>
+
+
+</resources>

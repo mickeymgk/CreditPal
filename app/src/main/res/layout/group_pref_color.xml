@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:id="@+id/rd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:checkedButton="@+id/radioButton1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blue"
+        android:checked="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        style="@style/RadioButtonStyle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:tag="?colorPrimary"
+        android:id="@+id/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/red"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        style="@style/RadioButtonStyle"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:tag="?colorPrimary"
+        android:id="@+id/orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/orange"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        style="@style/RadioButtonStyle"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/green"
+        android:tag="?colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/green"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        style="@style/RadioButtonStyle"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/pink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pink"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        style="@style/RadioButtonStyle"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:drawable/divider_horizontal_bright"/>
+
+    <android.support.v7.widget.AppCompatRadioButton
+        android:id="@+id/purple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/purple"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        style="@style/RadioButtonStyle"
+        />
+</RadioGroup>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_basic_actions"
+            android:title="@string/navigation_account"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_additional"
+            android:icon="@drawable/ic_additional"
+            android:title="@string/navigation_additional" />
+
+    </group>
+
+    <group android:id="@+id/packages">
+        <item
+            android:id="@+id/nav_package"
+            android:icon="@drawable/ic_package_offers"
+            android:title="@string/navigation_Package_offers" />
+        <item
+            android:id="@+id/nav_usage"
+            android:icon="@drawable/ic_usage_stats"
+            android:title="@string/navigation_usage_stats" />
+    </group>
+
+    <group android:id="@+id/info">
+
+        <item
+            android:id="@+id/nav_service_info"
+            android:icon="@drawable/ic_info"
+            android:title="@string/navigation_service_info" />
+
+    </group>
+
+    <group android:checkableBehavior="none" android:id="@+id/app">
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/action_settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="@string/navigation_about" />
+    </group>
+
+</menu>

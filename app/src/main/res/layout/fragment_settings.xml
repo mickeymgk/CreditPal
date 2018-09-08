@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="#f2f2f2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Colors"
+        android:gravity="center_vertical"
+        android:paddingLeft="12dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="0.2dp"
+        android:layout_marginBottom="1dp"
+        app:cardCornerRadius="0dp">
+
+        <include layout="@layout/group_pref_color"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Notifications"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="0.5dp"
+            android:layout_marginBottom="1dp"
+            app:cardCornerRadius="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+           <android.support.v7.widget.SwitchCompat
+               android:id="@+id/switch_notification"
+               android:checked="true"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="@string/call_me_back"
+               android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+               android:paddingLeft="16dp"
+               android:paddingRight="14dp"
+               android:paddingTop="18dp"
+               android:paddingBottom="18dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/shade" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="@string/info_cmb_notification"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:background="@color/windowBackground"/>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/low_package"
+                android:checked="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/low_packages"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:paddingLeft="16dp"
+                android:paddingRight="14dp"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/shade" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="@string/package_warning"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:background="@color/windowBackground"/>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="@string/interactions"
+                android:gravity="center_vertical"
+                android:paddingLeft="12dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="0.5dp"
+            android:layout_marginBottom="1dp"
+            app:cardCornerRadius="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/switch_widget"
+                    android:checked="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/floating_widget"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="14dp"
+                    android:paddingTop="18dp"
+                    android:paddingBottom="18dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/shade" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="@string/floating_description"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:background="@color/windowBackground"/>
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/switch_vibrations"
+                    android:checked="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vibrations"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="14dp"
+                    android:paddingTop="18dp"
+                    android:paddingBottom="18dp"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@drawable/shade" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="14dp"
+                    android:text="Get a vibration feedback"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:background="@color/windowBackground"/>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <Button
+            android:tag=":aesthetic_ignore"
+            android:background="@color/windowBackground"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="bold"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:id="@+id/debug_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version 1.0.4 stable"/>
+
+    </LinearLayout>
+
+</ScrollView>

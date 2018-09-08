@@ -1,0 +1,74 @@
+{
+  "project_info": {
+    "project_number": "834552688489",
+    "firebase_url": "https://creditpal-340e8.firebaseio.com",
+    "project_id": "creditpal-340e8",
+    "storage_bucket": "creditpal-340e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834552688489:android:891856ddbd0ce5a6",
+        "android_client_info": {
+          "package_name": "mickeylina.creditpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834552688489-89ct1bp3b8v4ustflpfh7u4re9bfqc3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZUbWfcuCzku1I4b0Rd9aUFzOoW7LHeCA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-4995528931656004~2715923835"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834552688489:android:0d7ca1fd007ec7b4",
+        "android_client_info": {
+          "package_name": "phonics.creditpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834552688489-89ct1bp3b8v4ustflpfh7u4re9bfqc3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZUbWfcuCzku1I4b0Rd9aUFzOoW7LHeCA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

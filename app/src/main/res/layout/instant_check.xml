@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:scrollbarStyle="outsideOverlay"
+    android:theme="@style/HoverTheme"
+    android:orientation="vertical">
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:tag=":aesthetic_ignore"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardView2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <at.grabner.circleprogress.CircleProgressView
+                    android:id="@+id/internet_progress"
+                    app:cpv_barStrokeCap="Butt"
+                    app:cpv_textMode="Value"
+                    android:layout_width="123dp"
+                    android:layout_height="151dp"
+                    android:layout_margin="16dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    app:cpv_autoTextColor="true"
+                    app:cpv_autoTextSize="true"
+                    app:cpv_barWidth="18dp"
+                    app:cpv_innerContourColor="@color/windowBackground"
+                    app:cpv_outerContourColor="@color/windowBackground"
+                    app:cpv_rimColor="@color/new_p"
+                    app:cpv_rimWidth="18dp"
+                    app:cpv_showUnit="true"
+                    app:cpv_unit="MB"
+                    app:cpv_unitPosition="right_bottom"
+                    app:cpv_spin="true"
+                    app:cpv_spinSpeed="12"
+                    app:cpv_value="0"
+                    app:cpv_maxValue="25"
+                    app:cpv_barColor="@color/redPrimary"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.507"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:tag=":aesthetic_ignore"
+                    android:text="@string/internet"
+                    android:textAppearance="@style/TextAppearance.Design.Snackbar.Message"
+                    android:textColor="@android:color/black"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/internet_progress" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/windowBackground"
+            android:tag=":aesthetic_ignore"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <at.grabner.circleprogress.CircleProgressView
+                    android:id="@+id/sms_progress"
+                    app:cpv_barStrokeCap="Butt"
+                    app:cpv_textMode="Value"
+                    android:layout_width="123dp"
+                    android:layout_height="151dp"
+                    android:layout_margin="16dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    app:cpv_autoTextColor="true"
+                    app:cpv_autoTextSize="true"
+                    app:cpv_barColor="@color/redPrimary"
+                    app:cpv_barWidth="18dp"
+                    app:cpv_innerContourColor="@color/windowBackground"
+                    app:cpv_outerContourColor="@color/windowBackground"
+                    app:cpv_rimColor="@color/new_p"
+                    app:cpv_rimWidth="18dp"
+                    app:cpv_showUnit="true"
+                    app:cpv_unit="SMS"
+                    app:cpv_unitPosition="right_bottom"
+                    app:cpv_value="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.507"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/sms"
+                    android:textAppearance="@style/TextAppearance.Design.Snackbar.Message"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/sms_progress" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView234"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/windowBackground"
+            android:tag=":aesthetic_ignore"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toStartOf="@+id/cardView2d34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <at.grabner.circleprogress.CircleProgressView
+                    android:id="@+id/voice_progress"
+                    app:cpv_barStrokeCap="Butt"
+                    app:cpv_textMode="Value"
+                    android:layout_width="123dp"
+                    android:layout_height="151dp"
+                    android:layout_margin="16dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="4dp"
+                    app:cpv_autoTextColor="true"
+                    app:cpv_autoTextSize="true"
+                    app:cpv_barColor="@color/redPrimary"
+                    app:cpv_barWidth="18dp"
+                    app:cpv_innerContourColor="@color/windowBackground"
+                    app:cpv_outerContourColor="@color/windowBackground"
+                    app:cpv_rimColor="@color/new_p"
+                    app:cpv_rimWidth="18dp"
+                    app:cpv_showUnit="true"
+                    app:cpv_unit="Min"
+                    app:cpv_unitPosition="right_bottom"
+                    app:cpv_value="0"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.507"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/voice"
+                    android:textAppearance="@style/TextAppearance.Design.Snackbar.Message"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/voice_progress" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView2d34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/windowBackground"
+            android:tag=":aesthetic_ignore"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView234"
+            app:layout_constraintTop_toBottomOf="@+id/cardView2">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <me.itangqi.waveloadingview.WaveLoadingView
+                    android:id="@+id/progress_balance"
+                    android:layout_width="155dp"
+                    android:layout_height="139dp"
+                    app:wlv_progressValue="50"
+                    app:wlv_shapeType="rectangle"
+                    app:wlv_titleBottom="@string/birr"
+                    app:wlv_titleBottomColor="@android:color/white"
+                    app:wlv_titleCenterColor="@android:color/white"
+                    app:wlv_titleCenterSize="@dimen/hover_balance"
+                    app:wlv_waveAmplitude="8"
+                    app:wlv_waveColor="@color/new_p"
+                     />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/balance"
+                    android:textAppearance="@style/TextAppearance.Design.Snackbar.Message"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/progress_balance" />
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/cardView2d34"
+            app:layout_constraintStart_toStartOf="@+id/cardView234"
+            app:layout_constraintTop_toBottomOf="@+id/cardView234" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

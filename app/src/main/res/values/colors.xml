@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/bluePrimary</color>
+    <color name="colorPrimaryDark">@color/bluePrimaryDark</color>
+    <color name="status">@color/bluePrimaryDark</color>
+    <color name="colorAccent">@color/unselected</color>
+    <color name="colorStatusBar">#50000000</color>
+    <color name="windowBackground">#f2f2f2</color>
+    <color name="red">#f44336</color>
+    <color name="green">#43a047</color>
+    <color name="blue">#42a5f5</color>
+    <color name="unselected">#575858</color>
+    <color name="twenty_percent_black_overlay">#1e000000</color>
+    <color name="circle_bg">#ffbdbdbd</color>
+    <color name="new_p">#0f000000</color>
+    <color name="hover_shade_color">#00000000</color>
+    <color name="hover_navigator_color">#00ff0000</color>
+
+
+    <color name="bluePrimary">#ff3f83b1</color>
+    <color name="bluePrimaryDark">#ff2f6285</color>
+
+    <color name="redPrimary">#ffc62828</color>
+    <color name="redPrimaryDark">#ff941e1e</color>
+
+    <color name="orangePrimary">#ffd84315</color>
+    <color name="orangePrimaryDark">#ffa23210</color>
+
+    <color name="greenPrimary">#ff43a047</color>
+    <color name="greenPrimaryDark">#ff327835</color>
+
+    <color name="pinkPrimary">#ffe91e63</color>
+    <color name="pinkPrimaryDark">#ffaf164a</color>
+
+    <color name="purplePrimary">#ff7e57c2</color>
+    <color name="purplePrimaryDark">#5e399e</color>
+
+</resources>

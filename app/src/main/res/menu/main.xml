@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/action_lang"
+        android:title="@string/language">
+
+        <menu>
+            <group
+                android:id="@+id/group_grid_size"
+                android:checkableBehavior="single"
+                tools:ignore="HardcodedText">
+                <item
+                    android:id="@+id/action_lang_1"
+                    android:title="@string/language_one"
+                    android:checked="true"/>
+                <item
+                    android:id="@+id/action_lang_2"
+                    android:title="@string/language_two" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="50"
+        android:title="@string/refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom" />
+</menu>

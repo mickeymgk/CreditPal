@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "461919781987",
+    "firebase_url": "https://creditpal-2e745.firebaseio.com",
+    "project_id": "creditpal-2e745",
+    "storage_bucket": "creditpal-2e745.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461919781987:android:891856ddbd0ce5a6",
+        "android_client_info": {
+          "package_name": "mickeylina.creditpal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461919781987-g71u1okierqnqq7a4fbij0fc1pr1smlc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMucnXZfgL4HHBCL0nM5UfC-rYf9yZBfU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
